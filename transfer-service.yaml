@@ -1,1 +1,4 @@
-
+eureka: #tells about the Eureka server details and its refresh time
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
